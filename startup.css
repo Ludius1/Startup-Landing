@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E9F2F9;
+    height: 1000px;
+}
+header {
+    border-bottom: solid 1px rgb(221, 221, 221);
+    margin: 4px 20% 4px 20%;
+    padding: 15px 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+ul a {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.nav_btn {
+    padding: 3px 15px;
+    border: solid 1px #8142c4;
+    border-radius: 45px;
+    color: #8142c4;
+    margin-left: 25px;
+}
+main {
+    padding: 30px 20%;
+    display: flex;
+    grid-gap: 30px;
+    height: 500px;
+    align-items: end;
+}
+.hero_image {
+    width: 100%;
+}
+.left_container {
+    width: 1000px;
+}
+.right_container {
+    width: 800px;
+}
+h1 {
+    font-size: 65px;
+    line-height: 65px;
+}
+p {
+    font-size: 15px;
+    margin: 40px 0;
+}
+.logo_section {
+    width: 90px;
+}
+.logo {
+    width: 100%;
+}
+.review_text {
+    display: flex;
+    gap: 14px;
+    padding: 14px 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 9px 8px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    font-weight: bold;
+}
+.count {
+    font-size: 40px;
+    font-weight: 400;
+    color: #8142c4;
+}
+.reviews {
+    display: flex;
+    gap: 20px;
+}
+.rating, .half_rating {
+    width: 15px;
+    display: inline-block;
+    padding-right: 5px;
+}
+.partnership_logos {
+    display: flex;
+    gap: 20px;
+}
+.partnership_logos img {
+    width: 100px;
+    height: 50px;
+    opacity: 40%;
+}
+.partnership_logo {
+    width: 100%;
+    object-fit: cover;
+}
+section {
+    padding: 30px 20%;
+    display: flex;
+    justify-content: start;
+    grid-gap: 30px;
+}
